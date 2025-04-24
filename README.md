@@ -5,6 +5,7 @@ This project uses machine learning to predict whether a patient is diabetic base
 ## 📊 Dataset
 
 The dataset includes medical details for female patients aged 21 and above of Pima Indian heritage. 
+Dataset from [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 ## Features:
 
@@ -54,5 +55,12 @@ Outcome: Class variable (0 = Non-diabetic, 1 = Diabetic)
   - Precision: 0.80 (Class 0), 0.67 (Class 1)
   - Recall: 0.83 (Class 0), 0.62 (Class 1)
 - **ROC-AUC Score**: ~0.82
+
+## 🔧 Technologies Used
+
+- Python
+- pandas, numpy
+- seaborn, matplotlib
+- scikit-learn
 
 
